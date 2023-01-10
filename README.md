@@ -4,7 +4,7 @@
 
 <p align="center">A portfolio web-site  (Made with ❤️)</p>
 
-![Screenshot](src/assets/images/Projects/img4.png)
+![Screenshot](/src/assets/Snapshot.png)
 
 ## Features
 
