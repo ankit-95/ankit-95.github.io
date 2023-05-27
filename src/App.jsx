@@ -20,7 +20,7 @@ const App = () => {
   }, []);
   const { Footer } = content;
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <NabBar />
       <Hero />
       <Skills />
