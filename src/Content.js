@@ -83,37 +83,43 @@ export const content = {
         name: "Java",
         para: "Worked on Java 8.",
         logo: java,
-        values : "I am having more than 1.5 years of experience in Java 8.I was very much fascinated by Java in my College life due to this I completed by advanced Java Certification from NIIT CP in 2nd year of my college."
+        values:
+          "I am having more than 1.5 years of experience in Java 8.I was very much fascinated by Java in my College life due to this I completed by advanced Java Certification from NIIT CP in 2nd year of my college.",
       },
       {
         name: "Hibernate",
         para: "Worked on Hibernate for DB Integration.",
         logo: hibernate,
-        values : "I am having a Hibernate experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service."
+        values:
+          "I am having a Hibernate experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service.",
       },
       {
         name: "Spring Boot",
         para: "Worked on Spring Boot 5.",
         logo: springboot,
-        values : "I am having a Spring boot experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service."
+        values:
+          "I am having a Spring boot experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service.",
       },
       {
         name: "React js",
         para: "Worked on ReactJs to develop interative pages.",
         logo: reactjs,
-        values : "I am having a ReactJs experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service."
+        values:
+          "I am having a ReactJs experience of more than 1.5 years as I am extensively involved in the development of a Major Transaction Management Module that is been developed as a spring boot mirco-service.",
       },
       {
         name: "GitLab",
         para: "For Version Control Management.",
         logo: gitlab,
-        values : "As a software developer it is mandatory to understand how builds are going to be released as the sprint releases and it is basically achieved with the help of a version controlled tool like github.So I do have hands on experience in GITHUB and GITLAB."
+        values:
+          "As a software developer it is mandatory to understand how builds are going to be released as the sprint releases and it is basically achieved with the help of a version controlled tool like github.So I do have hands on experience in GITHUB and GITLAB.",
       },
       {
         name: "Docker",
         para: "Worked on Docker and Kubernetes.",
         logo: docker,
-        values: "I am having a good knowledge of Docker and Containerization as I have been actively deploying many of the Spring boot apps on IBM Cloud in my day to-day life.Due to this I am familiar with Scalability and Monitoring of Web-apps as well."
+        values:
+          "I am having a good knowledge of Docker and Containerization as I have been actively deploying many of the Spring boot apps on IBM Cloud in my day to-day life.Due to this I am familiar with Scalability and Monitoring of Web-apps as well.",
       },
     ],
     icon: MdArrowForward,
@@ -145,21 +151,33 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "College Website",
+        title: "NSIT Revamp - Website",
+        subTitle:
+          "Made on Figma to revamp my College (NSIT) Website as a Curriculum Activity of my M.Tech in CSE.",
         image: project1,
+        url: "https://www.figma.com/proto/eUMY8Ml1I2yfWSc2IFsWez/NSUT-East-Campus-Figma-Project?type=design&node-id=2-3&scaling=min-zoom&page-id=0%3A1",
       },
       {
-        title: "ITSM Tool FullStack Project",
+        title: "TechnoPool",
+        subTitle:
+          '"TechnoPool" is a Tool that makes life easy by automatically pumping all Tech Jobs in one place.',
         image: project2,
+        url: "https://techno-pool.vercel.app/",
       },
       {
         title: "Customer Tracker App",
+        subTitle:
+          "Worked as a team of 3 to build a complete tool composed of Administrator, Banking officer and Customers portal using – Spring Framework , HTML, CSS , JavaScript & Hibernate.",
         image: project3,
+        url: "",
       },
       {
-        title: "Portfolio Website",
+        title: "My Portfolio Website - ver 1.0",
+        subTitle:
+          "A portfolio web-site (Made with ❤️) | Four sections - Namely Home, Portfolio, Work and Contact | Technologies Used - ReactJs, SCSS and SASS",
         image: project4,
-      }
+        url: "",
+      },
     ],
   },
   Testimonials: {

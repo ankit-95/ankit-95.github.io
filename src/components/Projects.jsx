@@ -12,11 +12,9 @@ const Projects = () => {
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
-            {" "}
             {Projects.title}
           </h2>
           <h4 className="subtitle" data-aos="fade-down">
-            {" "}
             {Projects.subtitle}
           </h4>
           <br />
@@ -33,7 +31,7 @@ const Projects = () => {
             data-aos="fade-left"
             modules={[Pagination]}
             spaceBetween={20}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 md:max-w-xl max-w-xs drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
@@ -43,9 +41,25 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins"> {content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+                  <p className="font-semibold font-Poppins">
+                    {content.subTitle}
+                  </p>
+                  {content.url == "" && (
+                    <button
+                      disabled
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded self-end"
+                    >
+                      Live Demo
+                    </button>
+                  )}
+                  {content.url && (
+                    <button
+                      onClick={() => window.open(content.url)}
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded self-end"
+                    >
+                      Live Demo
+                    </button>
+                  )}
                 </div>
               </SwiperSlide>
             ))}
